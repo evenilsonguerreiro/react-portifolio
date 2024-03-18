@@ -2,12 +2,13 @@ import styled from "styled-components";
 
 export const GithubSecao = styled.div`
 margin-top: 32px;
-margin-botton: 64px;
+margin-botton: 56px;
+
+
+
 
 img{
-  height: 175px;
-}
-
+  height: 157px;
 }
 
 
