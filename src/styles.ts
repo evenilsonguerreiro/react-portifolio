@@ -9,6 +9,7 @@ const EstiloGlobal = createGlobalStyle`
   }
   body{
     padding: 80px;
+    padding-bottom: 80px;
 
     @media (max-width:768px){
       padding-top: 16px;
@@ -27,19 +28,18 @@ max-width: 1024px;
 width: 100%;
 margin: 0 auto;
 display: grid;
-grid-template-columns: 128px auto;
-column-gap: 56px;
+grid-template-columns: 160px auto;
+column-gap:70px;
 
 
 @media (max-width:768px){
-  max-width: 90%;
+  max-width: 80%;
   display:block;
 
 
+
 }
 
-img{
-  width: 100%;
-}
+
 
 `

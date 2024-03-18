@@ -3,6 +3,7 @@ import {P} from './styles'
  export type props = {
   children: string;
   tipo?: `principal` | `secundario`
+  fontSize?: number
 
 }
 
