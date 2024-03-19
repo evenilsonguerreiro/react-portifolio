@@ -5,14 +5,15 @@ margin-top: 32px;
 margin-bottom: 56px;
 
 
-
-
 img{
   height: 157px;
 
+  @media (max-width:768px){
+    height: auto;
+    width:100%;
+  }
+
 }
-
-
 }
 
 
